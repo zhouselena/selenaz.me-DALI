@@ -105,4 +105,26 @@ button {
     background: transparent;
     color: aliceblue;
     cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: #c5bcff;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+button:hover span {
+    width: calc(100% + 4px);
+}
+
+button:hover {
+    border: none;
 }
