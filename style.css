@@ -36,7 +36,7 @@
 
 .navbar ul li a {
     text-decoration: none;
-    color: white;
+    color: aliceblue;
     text-transform: lowercase;
 }
 
@@ -61,5 +61,48 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: white;
+    color: aliceblue;
+}
+
+.mepicture {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.mepictureborder {
+    height: 450px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    z-index: 2;
+}
+
+.content h1 {
+    font-size: 70px;
+    margin-top: 60px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #c5bcff;
+    background: transparent;
+    color: aliceblue;
+    cursor: pointer;
 }
