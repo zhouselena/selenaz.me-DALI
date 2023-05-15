@@ -10,6 +10,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)), url(assets/website_bg.jpeg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .background_about {
@@ -26,6 +27,8 @@
     height: 60px;
     cursor: pointer;
 }
+
+/**************************** global navigation bar ****************************/
 
 .navbar {
     width: 85%;
@@ -64,6 +67,8 @@
 .navbar ul li:hover:after {
     width: 100%;
 }
+
+/**************************** home page ****************************/
 
 .content {
     width: 100%;
@@ -139,6 +144,8 @@ button:hover {
     border: none;
 }
 
+/**************************** about me page ****************************/
+
 .aboutmecontent {
     width: 100%;
     position: absolute;
@@ -208,4 +215,56 @@ button:hover {
     left: 14%;
     transform: translate(-50%, -80%);
     z-index: 3;
+}
+
+/**************************** projects page ****************************/
+
+.projectscontent {
+    width: 100%;
+    position: absolute;
+    transform: translateY(90%);
+    text-align: center;
+    color: aliceblue;
+    overflow: scroll;
+}
+
+.projectscontent h1 {
+    font-size: 60px;
+}
+
+.astrorunss {
+    height: 37%;
+    width: 37%;
+    margin-top: 250px;
+    margin-left: 170px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+}
+
+.astrorunss:hover {
+    border-radius: 5%;
+    border: 3px solid #c5bcff;
+    margin: 3px;
+    width: 38%;
+    margin-top: 250px;
+    margin-left: 170px;
+}
+
+.revbotss {
+    height: 500px;
+    width: 500px;
+    border-radius: 3%;
+    top: 900px;
+    right: 200px;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.revbotss:hover {
+    border-radius: 5%;
+    border: 3px solid #c5bcff;
+    padding: 10px;
+    margin: 3px;
 }
