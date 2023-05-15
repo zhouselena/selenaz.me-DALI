@@ -230,7 +230,6 @@ button:hover {
     transform: translateY(90%);
     text-align: center;
     color: aliceblue;
-    overflow: scroll;
 }
 
 .projectscontent h1 {
@@ -238,8 +237,8 @@ button:hover {
 }
 
 .astrorunss {
-    height: 37%;
-    width: 37%;
+    height: 30%;
+    width: 30%;
     margin-top: 250px;
     margin-left: 170px;
     cursor: pointer;
@@ -251,16 +250,17 @@ button:hover {
     border-radius: 5%;
     border: 3px solid #c5bcff;
     margin: 3px;
-    width: 38%;
+    width: 31%;
     margin-top: 250px;
     margin-left: 170px;
+    padding: 10px;
 }
 
 .revbotss {
-    height: 500px;
-    width: 500px;
+    height: inherit;
+    width: 27%;
     border-radius: 3%;
-    top: 900px;
+    top: 840px;
     right: 200px;
     cursor: pointer;
     position: absolute;
