@@ -12,6 +12,15 @@
     background-position: center;
 }
 
+.background_about {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.1)), url(assets/website_bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
 .logo {
     width: 150px;
     height: 60px;
@@ -25,6 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 3;
 }
 
 .navbar ul li {
@@ -127,4 +137,26 @@ button:hover span {
 
 button:hover {
     border: none;
+}
+
+.aboutmecontent {
+    width: 100%;
+    position: absolute;
+    top: 470px;
+    transform: translateY(-50%);
+    text-align: right;
+    color: aliceblue;
+}
+
+.aboutmecontent h1 {
+    font-size: 70px;
+    margin-right: 100px;
+}
+
+.aboutmecontent p {
+    margin: 30px auto;
+    margin-right: 100px;
+    font-size: large;
+    font-weight: 100;
+    line-height: 35px;
 }
