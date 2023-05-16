@@ -236,6 +236,25 @@ button:hover {
     font-size: 60px;
 }
 
+.astrorundescription {
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    top: 410px;
+    right: 170px;
+    color: aliceblue;
+}
+
+.astrorundescription h2 {
+    font-size: 35px;
+}
+
+.astrorundescription p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 30px;
+}
+
 .astrorunss {
     height: 30%;
     width: 30%;
@@ -254,6 +273,25 @@ button:hover {
     margin-top: 250px;
     margin-left: 170px;
     padding: 10px;
+}
+
+.revbotdescription {
+    width: 100%;
+    text-align: left;
+    position: absolute;
+    top: 860px;
+    left: 170px;
+    color: aliceblue;
+}
+
+.revbotdescription h2 {
+    font-size: 35px;
+}
+
+.revbotdescription p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 35px;
 }
 
 .revbotss {
