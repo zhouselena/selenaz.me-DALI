@@ -1,9 +1,9 @@
 # selenaz.me
-Personal site, created for DALI web dev challenge.
+My personal site! Includes about me, mini project portfolio, and contact.
 
 ## TODO:
 - [x] create about me page
-- [ ] create projects page
+- [x] create projects page
 - [ ] create contact me page
 
 ## FUTURE TODOs:
