@@ -276,7 +276,7 @@ button:hover {
 }
 
 .revbotdescription {
-    width: 100%;
+    width: auto;
     text-align: left;
     position: absolute;
     top: 860px;
