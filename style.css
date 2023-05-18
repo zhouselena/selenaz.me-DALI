@@ -230,10 +230,10 @@ button:hover {
 }
 
 .aboutmepic3border {
-    height: 290px;
-    width: 250px;
-    top: 77%;
-    left: 72%;
+    height: 250px;
+    width: 255px;
+    top: 83%;
+    left: 71%;
     position: absolute;
     z-index: 3;
 }
