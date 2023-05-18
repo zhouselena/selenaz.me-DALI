@@ -189,6 +189,15 @@ button:hover {
     z-index: 1;
 }
 
+.aboutmepic4border {
+    height: 435px;
+    width: 435px;
+    top: 2%;
+    left: 1%;
+    position: absolute;
+    z-index: 1;
+}
+
 .aboutmepic2 {
     height: 200px;
     width: 200px;
@@ -197,6 +206,15 @@ button:hover {
     top: 70%;
     left: 125%;
     transform: translate(-50%, -80%);
+    z-index: 2;
+}
+
+.aboutmepic2border {
+    height: 240px;
+    width: 242px;
+    top: 31%;
+    left: 97%;
+    position: absolute;
     z-index: 2;
 }
 
@@ -211,6 +229,15 @@ button:hover {
     z-index: 3;
 }
 
+.aboutmepic3border {
+    height: 290px;
+    width: 250px;
+    top: 77%;
+    left: 72%;
+    position: absolute;
+    z-index: 3;
+}
+
 .aboutmepic4 {
     height: 150px;
     width: 150px;
@@ -219,6 +246,15 @@ button:hover {
     top: 135%;
     left: 45%;
     transform: translate(-50%, -80%);
+    z-index: 3;
+}
+
+.aboutmepicborder {
+    height: 185px;
+    width: 185px;
+    position: absolute;
+    top: 104%;
+    left: 24%;
     z-index: 3;
 }
 
